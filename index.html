@@ -1,0 +1,96 @@
+<html>
+    <head>
+    <title>Project</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(0, 240, 212);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .container {
+            max-width: 1100px;
+            width: 100%;
+            padding: 40px 15px;
+            margin: 0 auto;
+            box-sizing: border-box;
+            text-align: center;
+            background-color:aqua;
+        }
+        .header {
+            margin: 30px 0;
+            overflow: hidden;
+        }
+        .header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 100%;
+            object-fit: cover;
+        }
+        .gallery {
+            margin: 50px 0;
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr ;
+            grid-gap: 25px;
+        }
+        .gallery img {
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+            border: 1px solid #eee;
+            box-shadow: 1px 2px 3px  #ddd;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+        .footer {
+            margin: 40px 0;
+            overflow: hidden;
+        }
+        .footer h2 {
+            padding: 15px 0;
+            border-bottom: 2px solid #222;
+            display: inline-block;
+        }
+        .social svg {
+            max-width: 30px;   
+        }
+        .social a {
+            width: 40px;
+            height: 40px;
+            display: inline-block;
+            border-radius: 100%;
+        }
+        .social a.ig {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="gambar/logo-ukm.png" alt="">
+            <h1>Pengurus Progress</h1>
+            <p>This is our gallery</p>
+        </div>
+        <div class="gallery">
+            <img src="gambar/e.jpg" alt="">
+            <img src="gambar/b.jpg" alt="">
+            <img src="gambar/a.jpg" alt="">
+            <img src="gambar/c.jpg" alt="">
+            <img src="gambar/d.jpg" alt="">
+            <img src="gambar/f.jpg" alt="">
+        </div>
+        <div class="footer">
+            <h2>Contact Us</h2>
+            <div class="social">
+                <a class="ig" href="#instagram"><img src="gambar/ig.png" alt=""></a>
+                <a class="ig" href="#twitter"><img src="gambar/twitter.png" alt=""></a>
+                <a class="ig" href="#telegram"><img src="gambar/tele.png" alt=""></a>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
